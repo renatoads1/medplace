@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-481T9O2</Machine>
+    <WindowsUser>renatoads1</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>br.com.medplace</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>E:\cordova\medplace\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\cordova\medplace\platforms\windows\build\windows\debug\anycpu\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\images\sort_asc.png">
+      <PackagePath>www\vendor\datatables\images\sort_asc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\images\sort_asc_disabled.png">
+      <PackagePath>www\vendor\datatables\images\sort_asc_disabled.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\images\sort_both.png">
+      <PackagePath>www\vendor\datatables\images\sort_both.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\images\sort_desc.png">
+      <PackagePath>www\vendor\datatables\images\sort_desc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\images\sort_desc_disabled.png">
+      <PackagePath>www\vendor\datatables\images\sort_desc_disabled.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\.vs\slnx.sqlite">
+      <PackagePath>www\.vs\slnx.sqlite</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\.vs\VSWorkspaceState.json">
+      <PackagePath>www\.vs\VSWorkspaceState.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\.vs\www\v15\.suo">
+      <PackagePath>www\.vs\www\v15\.suo</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\data\flot-data.js">
+      <PackagePath>www\data\flot-data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\data\morris-data.js">
+      <PackagePath>www\data\morris-data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\dist\js\sb-admin-2.js">
+      <PackagePath>www\dist\js\sb-admin-2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\dist\js\sb-admin-2.min.js">
+      <PackagePath>www\dist\js\sb-admin-2.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\js\sb-admin-2.js">
+      <PackagePath>www\js\sb-admin-2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap\js\bootstrap.js">
+      <PackagePath>www\vendor\bootstrap\js\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap\js\bootstrap.min.js">
+      <PackagePath>www\vendor\bootstrap\js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables-plugins\dataTables.bootstrap.js">
+      <PackagePath>www\vendor\datatables-plugins\dataTables.bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables-plugins\dataTables.bootstrap.min.js">
+      <PackagePath>www\vendor\datatables-plugins\dataTables.bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables-responsive\dataTables.responsive.js">
+      <PackagePath>www\vendor\datatables-responsive\dataTables.responsive.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.bootstrap.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.bootstrap.min.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.bootstrap4.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.bootstrap4.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.bootstrap4.min.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.bootstrap4.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.foundation.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.foundation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.foundation.min.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.foundation.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.jqueryui.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.jqueryui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.jqueryui.min.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.jqueryui.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.material.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.material.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.material.min.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.material.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.semanticui.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.semanticui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.semanticui.min.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.semanticui.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.uikit.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.uikit.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\dataTables.uikit.min.js">
+      <PackagePath>www\vendor\datatables\js\dataTables.uikit.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\jquery.dataTables.js">
+      <PackagePath>www\vendor\datatables\js\jquery.dataTables.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\jquery.dataTables.min.js">
+      <PackagePath>www\vendor\datatables\js\jquery.dataTables.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\js\jquery.js">
+      <PackagePath>www\vendor\datatables\js\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot-tooltip\jquery.flot.tooltip.js">
+      <PackagePath>www\vendor\flot-tooltip\jquery.flot.tooltip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot-tooltip\jquery.flot.tooltip.min.js">
+      <PackagePath>www\vendor\flot-tooltip\jquery.flot.tooltip.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot-tooltip\jquery.flot.tooltip.source.js">
+      <PackagePath>www\vendor\flot-tooltip\jquery.flot.tooltip.source.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\excanvas.js">
+      <PackagePath>www\vendor\flot\excanvas.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\excanvas.min.js">
+      <PackagePath>www\vendor\flot\excanvas.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.colorhelpers.js">
+      <PackagePath>www\vendor\flot\jquery.colorhelpers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.canvas.js">
+      <PackagePath>www\vendor\flot\jquery.flot.canvas.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.categories.js">
+      <PackagePath>www\vendor\flot\jquery.flot.categories.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.crosshair.js">
+      <PackagePath>www\vendor\flot\jquery.flot.crosshair.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.errorbars.js">
+      <PackagePath>www\vendor\flot\jquery.flot.errorbars.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.fillbetween.js">
+      <PackagePath>www\vendor\flot\jquery.flot.fillbetween.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.image.js">
+      <PackagePath>www\vendor\flot\jquery.flot.image.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.js">
+      <PackagePath>www\vendor\flot\jquery.flot.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.navigate.js">
+      <PackagePath>www\vendor\flot\jquery.flot.navigate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.pie.js">
+      <PackagePath>www\vendor\flot\jquery.flot.pie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.resize.js">
+      <PackagePath>www\vendor\flot\jquery.flot.resize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.selection.js">
+      <PackagePath>www\vendor\flot\jquery.flot.selection.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.stack.js">
+      <PackagePath>www\vendor\flot\jquery.flot.stack.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.symbol.js">
+      <PackagePath>www\vendor\flot\jquery.flot.symbol.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.threshold.js">
+      <PackagePath>www\vendor\flot\jquery.flot.threshold.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.flot.time.js">
+      <PackagePath>www\vendor\flot\jquery.flot.time.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\flot\jquery.js">
+      <PackagePath>www\vendor\flot\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\jquery\jquery.js">
+      <PackagePath>www\vendor\jquery\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\jquery\jquery.min.js">
+      <PackagePath>www\vendor\jquery\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\metisMenu\metisMenu.js">
+      <PackagePath>www\vendor\metisMenu\metisMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\metisMenu\metisMenu.min.js">
+      <PackagePath>www\vendor\metisMenu\metisMenu.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\morrisjs\morris.js">
+      <PackagePath>www\vendor\morrisjs\morris.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\morrisjs\morris.min.js">
+      <PackagePath>www\vendor\morrisjs\morris.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\raphael\raphael.js">
+      <PackagePath>www\vendor\raphael\raphael.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\raphael\raphael.min.js">
+      <PackagePath>www\vendor\raphael\raphael.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\dist\css\sb-admin-2.css">
+      <PackagePath>www\dist\css\sb-admin-2.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\dist\css\sb-admin-2.min.css">
+      <PackagePath>www\dist\css\sb-admin-2.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap-social\bootstrap-social.css">
+      <PackagePath>www\vendor\bootstrap-social\bootstrap-social.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap\css\bootstrap.css">
+      <PackagePath>www\vendor\bootstrap\css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap\css\bootstrap.min.css">
+      <PackagePath>www\vendor\bootstrap\css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables-plugins\dataTables.bootstrap.css">
+      <PackagePath>www\vendor\datatables-plugins\dataTables.bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables-responsive\dataTables.responsive.css">
+      <PackagePath>www\vendor\datatables-responsive\dataTables.responsive.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.bootstrap.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.bootstrap.min.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.bootstrap4.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.bootstrap4.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.bootstrap4.min.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.bootstrap4.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.foundation.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.foundation.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.foundation.min.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.foundation.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.jqueryui.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.jqueryui.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.jqueryui.min.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.jqueryui.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.material.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.material.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.material.min.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.material.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.semanticui.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.semanticui.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.semanticui.min.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.semanticui.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.uikit.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.uikit.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\dataTables.uikit.min.css">
+      <PackagePath>www\vendor\datatables\css\dataTables.uikit.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\jquery.dataTables.css">
+      <PackagePath>www\vendor\datatables\css\jquery.dataTables.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\jquery.dataTables.min.css">
+      <PackagePath>www\vendor\datatables\css\jquery.dataTables.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\css\jquery.dataTables_themeroller.css">
+      <PackagePath>www\vendor\datatables\css\jquery.dataTables_themeroller.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\css\font-awesome.css">
+      <PackagePath>www\vendor\font-awesome\css\font-awesome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\css\font-awesome.min.css">
+      <PackagePath>www\vendor\font-awesome\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\metisMenu\metisMenu.css">
+      <PackagePath>www\vendor\metisMenu\metisMenu.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\metisMenu\metisMenu.min.css">
+      <PackagePath>www\vendor\metisMenu\metisMenu.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\morrisjs\morris.css">
+      <PackagePath>www\vendor\morrisjs\morris.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\blank.html">
+      <PackagePath>www\pages\blank.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\buttons.html">
+      <PackagePath>www\pages\buttons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\flot.html">
+      <PackagePath>www\pages\flot.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\forms.html">
+      <PackagePath>www\pages\forms.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\grid.html">
+      <PackagePath>www\pages\grid.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\icons.html">
+      <PackagePath>www\pages\icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\index.html">
+      <PackagePath>www\pages\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\login.html">
+      <PackagePath>www\pages\login.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\morris.html">
+      <PackagePath>www\pages\morris.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\notifications.html">
+      <PackagePath>www\pages\notifications.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\panels-wells.html">
+      <PackagePath>www\pages\panels-wells.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\tables.html">
+      <PackagePath>www\pages\tables.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\pages\typography.html">
+      <PackagePath>www\pages\typography.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables-plugins\index.html">
+      <PackagePath>www\vendor\datatables-plugins\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\less\mixins.less">
+      <PackagePath>www\less\mixins.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\less\sb-admin-2.less">
+      <PackagePath>www\less\sb-admin-2.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\less\variables.less">
+      <PackagePath>www\less\variables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap-social\bootstrap-social.less">
+      <PackagePath>www\vendor\bootstrap-social\bootstrap-social.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\animated.less">
+      <PackagePath>www\vendor\font-awesome\less\animated.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\bordered-pulled.less">
+      <PackagePath>www\vendor\font-awesome\less\bordered-pulled.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\core.less">
+      <PackagePath>www\vendor\font-awesome\less\core.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\extras.less">
+      <PackagePath>www\vendor\font-awesome\less\extras.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\fixed-width.less">
+      <PackagePath>www\vendor\font-awesome\less\fixed-width.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\font-awesome.less">
+      <PackagePath>www\vendor\font-awesome\less\font-awesome.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\icons.less">
+      <PackagePath>www\vendor\font-awesome\less\icons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\larger.less">
+      <PackagePath>www\vendor\font-awesome\less\larger.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\list.less">
+      <PackagePath>www\vendor\font-awesome\less\list.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\mixins.less">
+      <PackagePath>www\vendor\font-awesome\less\mixins.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\path.less">
+      <PackagePath>www\vendor\font-awesome\less\path.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\rotated-flipped.less">
+      <PackagePath>www\vendor\font-awesome\less\rotated-flipped.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\screen-reader.less">
+      <PackagePath>www\vendor\font-awesome\less\screen-reader.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\spinning.less">
+      <PackagePath>www\vendor\font-awesome\less\spinning.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\stacked.less">
+      <PackagePath>www\vendor\font-awesome\less\stacked.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\less\variables.less">
+      <PackagePath>www\vendor\font-awesome\less\variables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap-social\bootstrap-social.scss">
+      <PackagePath>www\vendor\bootstrap-social\bootstrap-social.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables-responsive\dataTables.responsive.scss">
+      <PackagePath>www\vendor\datatables-responsive\dataTables.responsive.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\font-awesome.scss">
+      <PackagePath>www\vendor\font-awesome\scss\font-awesome.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_animated.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_animated.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_bordered-pulled.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_bordered-pulled.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_core.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_core.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_extras.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_extras.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_fixed-width.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_fixed-width.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_icons.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_icons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_larger.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_larger.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_list.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_list.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_mixins.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_mixins.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_path.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_path.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_rotated-flipped.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_rotated-flipped.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_screen-reader.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_screen-reader.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_spinning.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_spinning.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_stacked.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_stacked.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\scss\_variables.scss">
+      <PackagePath>www\vendor\font-awesome\scss\_variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\vendor\font-awesome\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\vendor\font-awesome\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\vendor\font-awesome\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\vendor\font-awesome\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\fonts\fontawesome-webfont.woff2">
+      <PackagePath>www\vendor\font-awesome\fonts\fontawesome-webfont.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\images\favicon.ico">
+      <PackagePath>www\vendor\datatables\images\favicon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\datatables\images\Sorting icons.psd">
+      <PackagePath>www\vendor\datatables\images\Sorting icons.psd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\css\font-awesome.css.map">
+      <PackagePath>www\vendor\font-awesome\css\font-awesome.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\fonts\FontAwesome.otf">
+      <PackagePath>www\vendor\font-awesome\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\www\vendor\font-awesome\HELP-US-OUT.txt">
+      <PackagePath>www\vendor\font-awesome\HELP-US-OUT.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\cordova\medplace\platforms\windows\build\windows\debug\anycpu\win8.1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
