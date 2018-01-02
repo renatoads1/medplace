@@ -38,14 +38,19 @@ var app = {
         //listeningElement.setAttribute('style', 'display:none;');
         //receivedElement.setAttribute('style', 'display:block;');
         //console.log('Received Event: ' + id);
+        navigator.notification.alerr("ola mundo");
         window.addEventListener("batterystatus", onBatteryStatus, false);
         
         function onBatteryStatus(status) {
-            alert( "Level: " + status.level + " isPlugged: " + status.isPlugged);
+            document.getElementById("bateria").innerHTML =  "Bateria:%" + status.level;
             
         }
 
     }
+   
+
+
+
 };
 
 app.initialize();
