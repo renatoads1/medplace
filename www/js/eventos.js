@@ -1,5 +1,4 @@
 
-    alert("ola mundo");
 
 document.getElementById("rola").nodeValue = "rola";
 /*
